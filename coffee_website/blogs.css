@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+}
+
+.grid{
+    color: white;
+}
+
+#blog1{
+    background: url(https://st4.depositphotos.com/1000336/27181/i/450/depositphotos_271815228-stock-photo-cup-cappuccino-black-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#blog2{
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuICjhY-Rmtm43gtmJMFTPO0wTvY-USvCtLg&usqp=CAU);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#blog3{
+    background: url(https://img.freepik.com/free-photo/coffee-splashes-white-cup-black-background_8353-1511.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#blog4{
+    background: url(https://static.vecteezy.com/system/resources/previews/002/186/935/large_2x/iced-coffee-with-milk-on-the-table-on-dark-background-free-photo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#blog5{
+    background: url(https://images.unsplash.com/photo-1506372023823-741c83b836fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8&w=1000&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#blog6{
+    background: url(https://miro.medium.com/v2/resize:fit:14720/1*ZajEMv2yEHjwYlNOHmtNfg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,116 @@
+body{
+    background: url(https://c4.wallpaperflare.com/wallpaper/315/69/166/drink-coffee-cup-coffee-beans-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.white-bg{
+    color: white;
+}
+
+.nav{
+    text-align: center;
+}
+
+.nav img{
+    width: 78px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 2px;
+    position: relative;
+}
+
+.nav ul li{  
+    list-style: none;
+    display: inline-block;
+    margin: 0px 20px 0 35px;
+}
+
+.nav ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.heading{
+    width: 552px;
+    height: 192px;
+    margin-top: 27px;
+    padding: 20px;
+}
+
+h1{
+    font-weight:bolder;
+    font-size: 60px;
+}
+
+button{
+    width: 138px;
+    height: 35px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(148, 155, 65);
+}
+
+@media screen and (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav ul {
+        padding: 0;
+    }
+
+    .nav ul li {
+        margin: 10px 0;
+    }
+
+    .heading {
+        width: auto;
+        padding: 10px;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+}
+
+
+.new{
+    background-color: azure;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Media query for screens smaller than 480px */
+@media screen and (max-width: 480px) {
+    .nav img {
+        width: 48px;
+    }
+
+    .nav ul li {
+        font-size: 14px;
+    }
+
+    .heading {
+        width: auto;
+        padding: 10px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}

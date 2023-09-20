@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.white-bg {
+    color: white;
+}
+
+.nav {
+    text-align: center;
+}
+
+.nav img {
+    width: 84px;
+    height: 72px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 2px;
+    position: relative;
+    background-color: black;
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 20px 0 35px;
+}
+
+.nav ul li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.title {
+    color: white;
+    background-color: black;
+    height: 50px;
+    font-size: 44px;
+    text-align: center;
+}
+
+.container {
+    background-color: black;
+    padding: 20px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 20px;
+    color: white;
+}
+
+.grid {
+    width: 91%;
+    height: 340px;
+    margin: 3px;
+    border: 2px solid grey;
+    opacity: 0.8;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#product1{
+    background: url(https://img.freepik.com/premium-psd/premium-specialty-coffee-mockup-dark-packaging-with-beans-branding-presentation-design_154993-1384.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+#product2{
+    background: url(https://img.freepik.com/premium-photo/three-boxes-coffee-sit-each-other-with-bunch-coffee-beans-background_655090-59910.jpg?w=2000);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+#product3{
+    background: url(https://i.pinimg.com/originals/61/ba/fa/61bafa4c4f6f5314a6ae7c14ba3652b3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+#product1 div{
+    margin: 7px;
+}
+#product2 div{
+    margin: 7px;
+}
+#product3 div{
+    margin: 7px;
+}
+
+button{
+    background-color: black;
+    width: 46px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+h3{
+    text-align: center;
+}
+
+.end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

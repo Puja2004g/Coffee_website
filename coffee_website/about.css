@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid white;
+    height: 20%;
+    text-align: center;
+    font-size: 59px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.content{
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+.image{
+    background: url(https://static.vecteezy.com/system/resources/previews/022/460/980/large_2x/cup-of-coffee-and-coffee-beans-on-old-wooden-table-and-black-grunge-background-generative-ai-free-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.text{
+    background-color: rgba(0, 0, 0, 0.669);
+    width: 50%;
+    padding: 20px;
+}
+
+button{
+    background-color: rgb(139, 105, 62);
+    padding: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#toggle{
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .title {
+        font-size: 40px;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .image,
+    .text {
+        width: 100%;
+    }
+}
+
+.white-bg{
+    color: white;
+}
+
+.nav{
+    text-align: center;
+}
+
+.nav img{
+    width: 78px;
+}
+
+.nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 2px;
+    position: relative;
+}
+
+.nav ul li{  
+    list-style: none;
+    display: inline-block;
+    margin: 7px 22px 8px 35px;
+}
+
+.nav ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav li a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    .title {
+        font-size: 30px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .title {
+        font-size: 24px;
+        width: 100%;
+    }
+
+    .content {
+        height: auto;
+    }
+
+    .image,
+    .text {
+        width: 100%;
+    }
+}

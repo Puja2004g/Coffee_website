@@ -1,0 +1,52 @@
+.map{
+    background: url(https://media.wired.com/photos/59269cd37034dc5f91bec0f1/master/w_2560%2Cc_limit/GoogleMapTA.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+label{
+    font-size: 30px;
+}
+
+input{
+    margin: 10px;
+    width: 450px;
+    font-size: 20px;
+    background-color: grey;
+    color: white;
+    padding: 3px;
+}
+
+.btn{
+    color: wheat;
+    margin: 20px 0 0 0;
+}
+
+@media screen and (max-width: 768px) {
+    /* Adjust input and button styles for medium-sized screens */
+    input {
+        width: 80%;
+        max-width: 350px; /* Limit the maximum width */
+    }
+
+    .btn {
+        margin-top: 10px;
+        width: 80%;
+        max-width: 350px; /* Limit the maximum width */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Adjust input and button styles for small screens (e.g., mobile) */
+    input {
+        width: 100%;
+        max-width: none; /* Remove the maximum width */
+    }
+
+    .btn {
+        margin-top: 10px;
+        width: 100%;
+        max-width: none; /* Remove the maximum width */
+    }
+}

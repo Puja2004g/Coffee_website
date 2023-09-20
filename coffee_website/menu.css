@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.white-bg {
+    color: white;
+}
+
+.nav {
+    text-align: center;
+}
+
+.nav img {
+    width: 78px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 2px;
+    position: relative;
+    background-color: black;
+}
+
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 20px 0 35px;
+}
+
+.nav ul li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.title {
+    color: white;
+    background-color: black;
+    height: 50px;
+    font-size: 44px;
+    text-align: center;
+}
+
+.container {
+    background-color: black;
+    padding: 20px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 20px;
+    color: white;
+}
+
+.grid {
+    width: 91%;
+    height: 340px;
+    margin: 3px;
+    border: 2px solid grey;
+    opacity: 0.8;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.grid button {
+    margin: 20px;
+    padding: 8px;
+    background-color: rgb(133, 133, 16);
+    color: white;
+    font-weight: bold;
+}
+
+.grid button:hover{
+    cursor: pointer;
+    width: 50%;
+    font-size: 100%;
+}
+
+#grid1 {
+    background: url(https://assets.telegraphindia.com/telegraph/e8353e64-2b2f-40c3-a61c-1a04fe077f09.jpg);
+    background-size: cover;
+    background-color: rgb(34, 33, 33);
+    background-repeat: no-repeat;
+}
+
+#grid2 {
+    background: url(https://as1.ftcdn.net/v2/jpg/02/29/72/42/1000_F_229724210_0XIUvAKcfy96htPc8HaMMHDOhRUS7Xky.jpg);
+    background-size: cover;
+    background-color: rgb(34, 33, 33);
+    background-repeat: no-repeat;
+}
+
+#grid3{
+    background: url(https://as1.ftcdn.net/v2/jpg/05/00/33/24/1000_F_500332486_AvMD8qeXBXBJkfK3HUJuqKUSMh4Ld7Jv.jpg);
+    background-size: cover;
+    background-color: rgb(34, 33, 33);
+    background-repeat: no-repeat;
+}
+
+#grid4{
+    background: url(https://images.unsplash.com/photo-1587985782608-20062892559d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YW1lcmljYW5vJTIwY29mZmVlfGVufDB8fDB8fHww&w=1000&q=80);
+    background-size: cover;
+    background-color: rgb(34, 33, 33);
+    background-repeat: no-repeat;
+}
+
+#grid5{
+    background: url(https://png.pngtree.com/background/20230525/original/pngtree-an-iced-coffee-with-chips-on-a-black-background-picture-image_2733935.jpg);
+    background-size: cover;
+    background-color: rgb(34, 33, 33);
+    background-repeat: no-repeat;
+}
+
+#grid6{
+    background: url(https://t3.ftcdn.net/jpg/00/72/31/66/360_F_72316675_0bNaQMbn044FC6I6SEXEsQ4RkutSls8c.jpg);
+    background-size: cover;
+    background-color: rgb(34, 33, 33);
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+    }
+
+    .nav ul li {
+        margin: 0;
+        padding: 10px;
+    }
+
+    .title {
+        font-size: 32px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .parent {
+        grid-template-columns: repeat(2, auto);
+        grid-gap: 10px;
+    }
+
+    .grid {
+        height: auto;
+        font-size: 16px;
+    }
+
+    .grid button {
+        margin: 10px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .nav img {
+        width: 50px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .container {
+        padding: 5px;
+    }
+
+    .parent {
+        grid-template-columns: auto;
+        grid-gap: 5px;
+    }
+
+    .grid {
+        height: auto;
+        font-size: 14px;
+    }
+
+    .grid button {
+        margin: 5px;
+    }
+
+}
